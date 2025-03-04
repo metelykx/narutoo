@@ -34,9 +34,12 @@ class ShinobiModelView: ObservableObject {
         
         Shinobi(id: 11, name: "Madara Uchiha", clan: "Uchiha", village: "Konohagakure (founder)", power: 100, specialPower: "Eternal Sharingan + Rinengan, Susanoo, summoning meteors.", intelligence: 99, Ninjutsu: 100, element: "Fire, Lightning", Gendzusu: 100, Taidzusu: 95),
         
-        Shinobi(id: 12, name: "Shikamaru Nara", clan: "Nara", village: "Konohagakure", power: 80, specialPower: "Shadow manipulation — immobilizing an opponent through a shadow", intelligence: 100, Ninjutsu: 82, element: "Fire", Gendzusu: 65, Taidzusu: 70)
+        Shinobi(id: 12, name: "Shikamaru Nara", clan: "Nara", village: "Konohagakure", power: 80, specialPower: "Shadow manipulation — immobilizing an opponent through a shadow", intelligence: 100, Ninjutsu: 82, element: "Fire", Gendzusu: 65, Taidzusu: 70),
         
         Shinobi(id: 13, name: "Sasori", clan: "Absent", village: "Hidden Sand Village", power: 91, specialPower: "Puppeteering (300 puppets), Iron Sand, poison attacks.", intelligence: 94, Ninjutsu: 95, element: "Poison, Sand", Gendzusu: 80, Taidzusu: 70),
+        
+        Shinobi(id: 14, name: "Hidan", clan: "Absent", village: "Hidden Waterfall Village", power: 88, specialPower: "Immortality, the ritual of Jashin (damage through self-harm).", intelligence: 78, Ninjutsu: 75, element: "Religious rituals", Gendzusu: 50, Taidzusu: 85),
+        
         
         
         
