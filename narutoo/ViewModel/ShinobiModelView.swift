@@ -10,4 +10,8 @@ import Foundation
 class ShinobiModelView: ObservableObject {
     //сингелтон, для создания единственного экземпляра класса
     static let shared = ShinobiModelView()
+    
+    shinobi = [
+        
+    ]
 }
