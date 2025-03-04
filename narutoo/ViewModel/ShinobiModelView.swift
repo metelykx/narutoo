@@ -22,6 +22,8 @@ class ShinobiModelView: ObservableObject {
         
         Shinobi(id: 5, name: "Gaara", clan: "Absent", village: "Sunagakure", power: 92, specialPower: "Absolute sand protection — Autonomous Shield, Sand Tsunami", intelligence: 85, Ninjutsu: 88, element: "Sand", Gendzusu: 50, Taidzusu: 75),
         
+        Shinobi(id: 6, name: "Jiraiya", clan: "Absent", village: "Konohagakure", power: 94, specialPower: "Sage Mode — Enhance all abilities, Summon giant toads", intelligence: 89, Ninjutsu: 98, element: "Fire, Water", Gendzusu: 80, Taidzusu: 90),
+        
         
     ]
 }
