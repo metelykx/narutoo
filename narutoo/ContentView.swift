@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack {
-            Color(named:"", bundle: nil).ignoresSafeArea()
+            Color("Background", bundle: nil).ignoresSafeArea()
             
             VStack {
                 Image(systemName: "globe")
