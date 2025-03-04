@@ -8,15 +8,34 @@
 import Foundation
 
 struct Shinobi: Identifiable {
-    let id: UUID //id - героя
-    let name: String // имя героя
-    let clan: String // клан героя
-    let village: String // деревня героя
-    let power: Int // сила героя
-    let intelligence: Int // интеллект героя
-    let Ninjutsu: Int // нинджутсу героя
-    let element: String // стихия героя
-    let Gendzusu: String // гендюцу героя
-    let Taidzusu: String // тайдзюцу героя
+    //id - героя
+    let id: UUID
+    
+    // имя героя
+    let name: String
+    
+    // клан героя
+    let clan: String
+    
+    // деревня героя
+    let village: String
+    
+    // сила героя
+    let power: Int
+    
+    // интеллект героя
+    let intelligence: Int
+    
+    // нинджутсу героя
+    let Ninjutsu: Int
+    
+    // стихия героя
+    let element: String
+    
+    // гендюцу героя
+    let Gendzusu: String
+    
+    // тайдзюцу героя
+    let Taidzusu: String
     
 }
