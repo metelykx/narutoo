@@ -30,6 +30,7 @@ class ShinobiModelView: ObservableObject {
         
         Shinobi(id: 9, name: "Kabuto Yakushi", clan: "Absent", village: "Конохагакуре (бывший)", power: 93, specialPower: "Modo's Snake Saga is Tensei (resurrection of the dead).", intelligence: 96, Ninjutsu: 97, element: "Earth, Poison", Gendzusu: 85, Taidzusu: 80),
         
+        Shinobi(id: 10, name: "Deidara", clan: "Absent", village: "Скрытая Деревня Камня", power: 89, specialPower: "Explosive clay (C1–C4), nano-explosions, self-detonation.", intelligence: 87, Ninjutsu: 93, element: "Explosion", Gendzusu: 60, Taidzusu: 75),
         
         
     ]
