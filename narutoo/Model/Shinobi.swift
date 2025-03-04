@@ -23,6 +23,9 @@ struct Shinobi: Identifiable {
     // сила героя
     let power: Int
     
+    //специальная сила
+    let specialPower: String
+    
     // интеллект героя
     let intelligence: Int
     
@@ -37,5 +40,6 @@ struct Shinobi: Identifiable {
     
     // тайдзюцу героя
     let Taidzusu: Int
+    
     
 }
