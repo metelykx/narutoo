@@ -8,5 +8,13 @@
 import Foundation
 
 struct Shinobi: Identifiable {
+    let id: UUID
+    let name: String
+    let clan: String
+    let village: String
+    let power: Int
+    let intelligence: Int
+    let Ninjutsu: Int
+    
     
 }
