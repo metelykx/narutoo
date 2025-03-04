@@ -28,6 +28,8 @@ class ShinobiModelView: ObservableObject {
         
         Shinobi(id: 8, name: "Obito Uchiha", clan: "Uchiha", village: "Konohagakure (former)", power: 97, specialPower: "Kamui (phase teleportation), Mokuton (Wooden style), Rinengan.", intelligence: 92, Ninjutsu: 95, element: "Fire, Wood", Gendzusu: 98, Taidzusu: 85),
         
+        Shinobi(id: 9, name: "Kabuto Yakushi", clan: "Absent", village: "Конохагакуре (бывший)", power: 93, specialPower: "Modo's Snake Saga is Tensei (resurrection of the dead).", intelligence: 96, Ninjutsu: 97, element: "Earth, Poison", Gendzusu: 85, Taidzusu: 80),
+        
         
         
     ]
