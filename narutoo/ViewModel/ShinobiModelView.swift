@@ -28,12 +28,13 @@ class ShinobiModelView: ObservableObject {
         
         Shinobi(id: 8, name: "Obito Uchiha", clan: "Uchiha", village: "Konohagakure (former)", power: 97, specialPower: "Kamui (phase teleportation), Mokuton (Wooden style), Rinengan.", intelligence: 92, Ninjutsu: 95, element: "Fire, Wood", Gendzusu: 98, Taidzusu: 85),
         
-        Shinobi(id: 9, name: "Kabuto Yakushi", clan: "Absent", village: "Конохагакуре (бывший)", power: 93, specialPower: "Modo's Snake Saga is Tensei (resurrection of the dead).", intelligence: 96, Ninjutsu: 97, element: "Earth, Poison", Gendzusu: 85, Taidzusu: 80),
+        Shinobi(id: 9, name: "Kabuto Yakushi", clan: "Absent", village: "Konohagakure (former)", power: 93, specialPower: "Modo's Snake Saga is Tensei (resurrection of the dead).", intelligence: 96, Ninjutsu: 97, element: "Earth, Poison", Gendzusu: 85, Taidzusu: 80),
         
-        Shinobi(id: 10, name: "Deidara", clan: "Absent", village: "Скрытая Деревня Камня", power: 89, specialPower: "Explosive clay (C1–C4), nano-explosions, self-detonation.", intelligence: 87, Ninjutsu: 93, element: "Explosion", Gendzusu: 60, Taidzusu: 75),
+        Shinobi(id: 10, name: "Deidara", clan: "Absent", village: "The Hidden Village of Stone", power: 89, specialPower: "Explosive clay (C1–C4), nano-explosions, self-detonation.", intelligence: 87, Ninjutsu: 93, element: "Explosion", Gendzusu: 60, Taidzusu: 75),
         
         Shinobi(id: 11, name: "Madara Uchiha", clan: "Uchiha", village: "Konohagakure (founder)", power: 100, specialPower: "Eternal Sharingan + Rinengan, Susanoo, summoning meteors.", intelligence: 99, Ninjutsu: 100, element: "Fire, Lightning", Gendzusu: 100, Taidzusu: 95),
         
+        Shinobi(id: 12, name: "Shikamaru Nara", clan: "Nara", village: "Konohagakure", power: 80, specialPower: "Shadow manipulation — immobilizing an opponent through a shadow", intelligence: 100, Ninjutsu: 82, element: "Fire", Gendzusu: 65, Taidzusu: 70)
         
         
     ]
