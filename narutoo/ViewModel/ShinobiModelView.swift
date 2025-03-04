@@ -32,6 +32,9 @@ class ShinobiModelView: ObservableObject {
         
         Shinobi(id: 10, name: "Deidara", clan: "Absent", village: "Скрытая Деревня Камня", power: 89, specialPower: "Explosive clay (C1–C4), nano-explosions, self-detonation.", intelligence: 87, Ninjutsu: 93, element: "Explosion", Gendzusu: 60, Taidzusu: 75),
         
+        Shinobi(id: 11, name: "Madara Uchiha", clan: "Uchiha", village: "Konohagakure (founder)", power: 100, specialPower: "Eternal Sharingan + Rinengan, Susanoo, summoning meteors.", intelligence: 99, Ninjutsu: 100, element: "Fire, Lightning", Gendzusu: 100, Taidzusu: 95),
+        
+        
         
     ]
 }
