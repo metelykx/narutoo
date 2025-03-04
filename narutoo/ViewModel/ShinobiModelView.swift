@@ -18,8 +18,9 @@ class ShinobiModelView: ObservableObject {
         
         Shinobi(id: 3, name: "Kakashi Hatake", clan: "Hatake", village: "Konohagakure", power: 90, specialPower: "Sharingan — copying techniques, Kaminu (lightning piercing the sky)", intelligence: 97, Ninjutsu: 92, element: "Lightning", Gendzusu: 85, Taidzusu: 88),
         
-        Shinobi(id: 1, name: "Itachi Uchiha", clan: "Uchiha", village: "The renegade ninja", power: 96, specialPower: "Tsukuyomi (an illusion that breaks the mind in seconds), Susanoo (a giant warrior defender)", intelligence: 100, Ninjutsu: 94, element: "Fire", Gendzusu: 100, Taidzusu: 85),
+        Shinobi(id: 4, name: "Itachi Uchiha", clan: "Uchiha", village: "The renegade ninja", power: 96, specialPower: "Tsukuyomi (an illusion that breaks the mind in seconds), Susanoo (a giant warrior defender)", intelligence: 100, Ninjutsu: 94, element: "Fire", Gendzusu: 100, Taidzusu: 85),
         
+        Shinobi(id: 5, name: "Gaara", clan: "Absent", village: "Sunagakure", power: 92, specialPower: "Absolute sand protection — Autonomous Shield, Sand Tsunami", intelligence: 85, Ninjutsu: 88, element: "Sand", Gendzusu: 50, Taidzusu: 75),
         
         
     ]
