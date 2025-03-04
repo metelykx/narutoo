@@ -36,6 +36,9 @@ class ShinobiModelView: ObservableObject {
         
         Shinobi(id: 12, name: "Shikamaru Nara", clan: "Nara", village: "Konohagakure", power: 80, specialPower: "Shadow manipulation — immobilizing an opponent through a shadow", intelligence: 100, Ninjutsu: 82, element: "Fire", Gendzusu: 65, Taidzusu: 70)
         
+        Shinobi(id: 13, name: "Sasori", clan: "Absent", village: "Hidden Sand Village", power: 91, specialPower: "Puppeteering (300 puppets), Iron Sand, poison attacks.", intelligence: 94, Ninjutsu: 95, element: "Poison, Sand", Gendzusu: 80, Taidzusu: 70),
+        
+        
         
     ]
 }
