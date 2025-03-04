@@ -33,9 +33,9 @@ struct Shinobi: Identifiable {
     let element: String
     
     // гендюцу героя
-    let Gendzusu: String
+    let Gendzusu: Int
     
     // тайдзюцу героя
-    let Taidzusu: String
+    let Taidzusu: Int
     
 }
