@@ -9,7 +9,7 @@ import Foundation
 
 struct Shinobi: Identifiable {
     //id - героя
-    let id: UUID
+    let id: Int
     
     // имя героя
     let name: String
