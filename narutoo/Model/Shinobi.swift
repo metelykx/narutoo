@@ -15,6 +15,8 @@ struct Shinobi: Identifiable {
     let power: Int
     let intelligence: Int
     let Ninjutsu: Int
-    
+    let element: String
+    let Gendzusu: String
+    let Taidzusu: String
     
 }
