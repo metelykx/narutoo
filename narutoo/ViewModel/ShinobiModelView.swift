@@ -26,6 +26,9 @@ class ShinobiModelView: ObservableObject {
         
         Shinobi(id: 7, name: "Nagato Uzumaki", clan: "Uzumaki", village: "Hidden Rain Village", power: 98, specialPower: "Six Paths of the Pane — control six bodies with unique skills.", intelligence: 95, Ninjutsu: 100, element: "All the elements", Gendzusu: 90, Taidzusu: 80),
         
+        Shinobi(id: 8, name: "Obito Uchiha", clan: "Uchiha", village: "Konohagakure (former)", power: 97, specialPower: "Kamui (phase teleportation), Mokuton (Wooden style), Rinengan.", intelligence: 92, Ninjutsu: 95, element: "Fire, Wood", Gendzusu: 98, Taidzusu: 85),
+        
+        
         
     ]
 }
