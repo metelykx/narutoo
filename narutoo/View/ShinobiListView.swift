@@ -24,6 +24,14 @@ struct ShinobiListView: View {
                         Image(shinobi.imageUrl, bundle: nil).resizable()
                             .aspectRatio(contentMode: .fit)
                             .frame(width: 100, height: 125)
+                        
+                        VStack {
+                            Text(shinobi.name)
+                            
+                            Text(String(shinobi.power))
+                            
+                            Text(shinobi.intelligence)
+                        }
                     }
                 }
             }
