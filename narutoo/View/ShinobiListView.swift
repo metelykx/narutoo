@@ -26,7 +26,7 @@ struct ShinobiListView: View {
                             .aspectRatio(contentMode: .fit)
                             .frame(width: 100, height: 125)
                         
-                        VStack {
+                        VStack(alignment: .leading) {
                             Text(shinobi.name).padding(.bottom,2)
                             
                             
