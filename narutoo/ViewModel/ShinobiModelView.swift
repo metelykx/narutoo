@@ -26,7 +26,7 @@ class ShinobiModelView: ObservableObject {
         
         Shinobi(id: 7, imageUrl: "nagato", name: "Nagato Uzumaki", clan: "Uzumaki", village: "Hidden Rain Village", power: 98, specialPower: "Six Paths of the Pane — control six bodies with unique skills.", intelligence: 95, Ninjutsu: 100, element: "All the elements", Gendzusu: 90, Taidzusu: 80),
         
-        Shinobi(id: 8, imageUrl: "", name: "Obito Uchiha", clan: "Uchiha", village: "Konohagakure (former)", power: 97, specialPower: "Kamui (phase teleportation), Mokuton (Wooden style), Rinengan.", intelligence: 92, Ninjutsu: 95, element: "Fire, Wood", Gendzusu: 98, Taidzusu: 85),
+        Shinobi(id: 8, imageUrl: "obito", name: "Obito Uchiha", clan: "Uchiha", village: "Konohagakure (former)", power: 97, specialPower: "Kamui (phase teleportation), Mokuton (Wooden style), Rinengan.", intelligence: 92, Ninjutsu: 95, element: "Fire, Wood", Gendzusu: 98, Taidzusu: 85),
         
         Shinobi(id: 9, imageUrl: "", name: "Kabuto Yakushi", clan: "Absent", village: "Konohagakure (former)", power: 93, specialPower: "Modo's Snake Saga is Tensei (resurrection of the dead).", intelligence: 96, Ninjutsu: 97, element: "Earth, Poison", Gendzusu: 85, Taidzusu: 80),
         
