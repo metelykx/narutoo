@@ -30,7 +30,7 @@ struct ShinobiListView: View {
                             
                             Text(String(shinobi.power))
                             
-                            Text(shinobi.intelligence)
+                            Text(String(shinobi.intelligence))
                         }
                     }
                 }
