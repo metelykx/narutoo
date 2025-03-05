@@ -29,9 +29,9 @@ struct ShinobiListView: View {
                             Text(shinobi.name)
                             
                             
-                            Text(String(shinobi.power))
+                            Text("Power:  \(String(shinobi.power))/100")
                             
-                            Text(String(shinobi.intelligence))
+                            Text("Intelligence: \(String(shinobi.intelligence))/100")
                         }
                     }
                 }
