@@ -30,7 +30,7 @@ class ShinobiModelView: ObservableObject {
         
         Shinobi(id: 9, imageUrl: "kabuto", name: "Kabuto Yakushi", clan: "Absent", village: "Konohagakure (former)", power: 93, specialPower: "Modo's Snake Saga is Tensei (resurrection of the dead).", intelligence: 96, Ninjutsu: 97, element: "Earth, Poison", Gendzusu: 85, Taidzusu: 80),
         
-        Shinobi(id: 10, imageUrl: "", name: "Deidara", clan: "Absent", village: "The Hidden Village of Stone", power: 89, specialPower: "Explosive clay (C1–C4), nano-explosions, self-detonation.", intelligence: 87, Ninjutsu: 93, element: "Explosion", Gendzusu: 60, Taidzusu: 75),
+        Shinobi(id: 10, imageUrl: "deidara", name: "Deidara", clan: "Absent", village: "The Hidden Village of Stone", power: 89, specialPower: "Explosive clay (C1–C4), nano-explosions, self-detonation.", intelligence: 87, Ninjutsu: 93, element: "Explosion", Gendzusu: 60, Taidzusu: 75),
         
         Shinobi(id: 11, imageUrl: "", name: "Madara Uchiha", clan: "Uchiha", village: "Konohagakure (founder)", power: 100, specialPower: "Eternal Sharingan + Rinengan, Susanoo, summoning meteors.", intelligence: 99, Ninjutsu: 100, element: "Fire, Lightning", Gendzusu: 100, Taidzusu: 95),
         
