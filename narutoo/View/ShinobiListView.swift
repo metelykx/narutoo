@@ -9,6 +9,8 @@ import SwiftUI
 
 struct ShinobiListView: View {
     
+    
+    //здесь, мы подсоединили так скажем ShinobiModelView для того, чтобы автоматически изменять интерфейс при изменении данных
     @ObservedObject var viewModel = ShinobiModelView.shared
     var body: some View {
         Text("salam")
