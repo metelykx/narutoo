@@ -28,15 +28,22 @@ struct ShinobiListView: View {
                         
                         VStack(alignment: .leading) {
                             Text(shinobi.name).padding(.bottom,2)
+                                .foregroundColor(.white)
                             
                             
                             Text("Power:  \(String(shinobi.power))/100").padding(.bottom,2)
+                                .foregroundColor(.white)
                             
                             Text("Intelligence: \(String(shinobi.intelligence))/100")
+                                .foregroundColor(.white)
                         }
                     }
+            
+                    .listRowBackground(Color.clear)
                 }
+               
             }.listStyle(.plain)
+           
         }
     }
 }
