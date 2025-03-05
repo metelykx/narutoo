@@ -38,7 +38,7 @@ class ShinobiModelView: ObservableObject {
         
         Shinobi(id: 13, imageUrl: "sasori", name: "Sasori", clan: "Absent", village: "Hidden Sand Village", power: 91, specialPower: "Puppeteering (300 puppets), Iron Sand, poison attacks.", intelligence: 94, Ninjutsu: 95, element: "Poison, Sand", Gendzusu: 80, Taidzusu: 70),
         
-        Shinobi(id: 14, imageUrl: "", name: "Hidan", clan: "Absent", village: "Hidden Waterfall Village", power: 88, specialPower: "Immortality, the ritual of Jashin (damage through self-harm).", intelligence: 78, Ninjutsu: 75, element: "Religious rituals", Gendzusu: 50, Taidzusu: 85),
+        Shinobi(id: 14, imageUrl: "hidan", name: "Hidan", clan: "Absent", village: "Hidden Waterfall Village", power: 88, specialPower: "Immortality, the ritual of Jashin (damage through self-harm).", intelligence: 78, Ninjutsu: 75, element: "Religious rituals", Gendzusu: 50, Taidzusu: 85),
         
         Shinobi(id: 15, imageUrl: "", name: "Kaguya Ootsutsuki", clan: "Ootsutsuki", village: "Absent", power: 100, specialPower: "The goddess of chakra is the absorption of matter, teleportation between dimensions.", intelligence: 90, Ninjutsu: 100, element: "All the elements", Gendzusu: 100, Taidzusu: 95)
         
