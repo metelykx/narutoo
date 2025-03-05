@@ -24,7 +24,7 @@ class ShinobiModelView: ObservableObject {
         
         Shinobi(id: 6, imageUrl: "jiraya", name: "Jiraiya", clan: "Absent", village: "Konohagakure", power: 94, specialPower: "Sage Mode — Enhance all abilities, Summon giant toads", intelligence: 89, Ninjutsu: 98, element: "Fire, Water", Gendzusu: 80, Taidzusu: 90),
         
-        Shinobi(id: 7, imageUrl: "", name: "Nagato Uzumaki", clan: "Uzumaki", village: "Hidden Rain Village", power: 98, specialPower: "Six Paths of the Pane — control six bodies with unique skills.", intelligence: 95, Ninjutsu: 100, element: "All the elements", Gendzusu: 90, Taidzusu: 80),
+        Shinobi(id: 7, imageUrl: "nagato", name: "Nagato Uzumaki", clan: "Uzumaki", village: "Hidden Rain Village", power: 98, specialPower: "Six Paths of the Pane — control six bodies with unique skills.", intelligence: 95, Ninjutsu: 100, element: "All the elements", Gendzusu: 90, Taidzusu: 80),
         
         Shinobi(id: 8, imageUrl: "", name: "Obito Uchiha", clan: "Uchiha", village: "Konohagakure (former)", power: 97, specialPower: "Kamui (phase teleportation), Mokuton (Wooden style), Rinengan.", intelligence: 92, Ninjutsu: 95, element: "Fire, Wood", Gendzusu: 98, Taidzusu: 85),
         
