@@ -15,6 +15,10 @@ struct ShinobiListView: View {
     var body: some View {
         List(viewModel.shinobi)  { shinobi in
             
+            
+            HStack {
+                Image(, bundle: <#T##Bundle?#>)
+            }
         }
     }
 }

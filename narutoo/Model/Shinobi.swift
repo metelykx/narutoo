@@ -11,6 +11,9 @@ struct Shinobi: Identifiable {
     //id - героя
     let id: Int
     
+    //imageUrl - картинка героя
+    let imageUrl: String
+    
     // имя героя
     let name: String
     
