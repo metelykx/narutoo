@@ -18,7 +18,7 @@ class ShinobiModelView: ObservableObject {
         
         Shinobi(id: 3, imageUrl: "kakashi", name: "Kakashi Hatake", clan: "Hatake", village: "Konohagakure", power: 90, specialPower: "Sharingan — copying techniques, Kaminu (lightning piercing the sky)", intelligence: 97, Ninjutsu: 92, element: "Lightning", Gendzusu: 85, Taidzusu: 88),
         
-        Shinobi(id: 4, imageUrl: "itachi", name: "Itachi Uchiha", clan: "Uchiha", village: "The renegade ninja", power: 96, specialPower: "Tsukuyomi (an illusion that breaks the mind in seconds), Susanoo (a giant warrior defender)", intelligence: 100, Ninjutsu: 94, element: "Fire", Gendzusu: 100, Taidzusu: 85),
+        Shinobi(id: 4, imageUrl: "Itachi", name: "Itachi Uchiha", clan: "Uchiha", village: "The renegade ninja", power: 96, specialPower: "Tsukuyomi (an illusion that breaks the mind in seconds), Susanoo (a giant warrior defender)", intelligence: 100, Ninjutsu: 94, element: "Fire", Gendzusu: 100, Taidzusu: 85),
         
         Shinobi(id: 5, imageUrl: "gaara", name: "Gaara", clan: "Absent", village: "Sunagakure", power: 92, specialPower: "Absolute sand protection — Autonomous Shield, Sand Tsunami", intelligence: 85, Ninjutsu: 88, element: "Sand", Gendzusu: 50, Taidzusu: 75),
         
@@ -32,7 +32,7 @@ class ShinobiModelView: ObservableObject {
         
         Shinobi(id: 10, imageUrl: "deidara", name: "Deidara", clan: "Absent", village: "The Hidden Village of Stone", power: 89, specialPower: "Explosive clay (C1–C4), nano-explosions, self-detonation.", intelligence: 87, Ninjutsu: 93, element: "Explosion", Gendzusu: 60, Taidzusu: 75),
         
-        Shinobi(id: 11, imageUrl: "madara", name: "Madara Uchiha", clan: "Uchiha", village: "Konohagakure (founder)", power: 100, specialPower: "Eternal Sharingan + Rinengan, Susanoo, summoning meteors.", intelligence: 99, Ninjutsu: 100, element: "Fire, Lightning", Gendzusu: 100, Taidzusu: 95),
+        Shinobi(id: 11, imageUrl: "Madara", name: "Madara Uchiha", clan: "Uchiha", village: "Konohagakure (founder)", power: 100, specialPower: "Eternal Sharingan + Rinengan, Susanoo, summoning meteors.", intelligence: 99, Ninjutsu: 100, element: "Fire, Lightning", Gendzusu: 100, Taidzusu: 95),
         
         Shinobi(id: 12, imageUrl: "shikamaru", name: "Shikamaru Nara", clan: "Nara", village: "Konohagakure", power: 80, specialPower: "Shadow manipulation — immobilizing an opponent through a shadow", intelligence: 100, Ninjutsu: 82, element: "Fire", Gendzusu: 65, Taidzusu: 70),
         
