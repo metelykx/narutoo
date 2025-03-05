@@ -7,12 +7,14 @@
 
 import SwiftUI
 
-struct ShinobiView: View {
+struct ShinobiListView: View {
+    
+    @ObservedObject var viewModel = ShinobiModelView.shared
     var body: some View {
         Text("salam")
     }
 }
 
 #Preview {
-    ShinobiView()
+    ShinobiListView()
 }
