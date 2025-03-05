@@ -28,6 +28,7 @@ struct ShinobiListView: View {
                         VStack {
                             Text(shinobi.name)
                             
+                            
                             Text(String(shinobi.power))
                             
                             Text(String(shinobi.intelligence))
