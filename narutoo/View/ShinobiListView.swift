@@ -17,6 +17,7 @@ struct ShinobiListView: View {
             Color("Background", bundle: nil).ignoresSafeArea()
             VStack {
                 
+                
                 List(viewModel.shinobi)  { shinobi in
                     
                     
@@ -26,16 +27,16 @@ struct ShinobiListView: View {
                             .frame(width: 100, height: 125)
                         
                         VStack {
-                            Text(shinobi.name)
+                            Text(shinobi.name).padding(.bottom,2)
                             
                             
-                            Text("Power:  \(String(shinobi.power))/100")
+                            Text("Power:  \(String(shinobi.power))/100").padding(.bottom,2)
                             
                             Text("Intelligence: \(String(shinobi.intelligence))/100")
                         }
                     }
                 }
-            }
+            }.listStyle(.plain)
         }
     }
 }
