@@ -41,6 +41,14 @@ struct ShinobiListView: View {
                                 .font(.custom("JosefinSans-Regular", size: 20))
                         }
                     }
+                    .overlay(
+                            Rectangle()
+                                .fill(Color.gray.opacity(1.5))
+                                .frame(height: 1)
+                                .padding(.leading, 120) // Выравнивание под текстом
+                                .padding(.trailing, 20),
+                            alignment: .bottom
+                        )
             
                     .listRowBackground(Color.clear)
                 }
