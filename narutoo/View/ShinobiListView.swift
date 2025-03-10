@@ -17,12 +17,17 @@ struct ShinobiListView: View {
             Color("Background", bundle: nil).ignoresSafeArea()
             VStack {
                 
+                
                 Text("Shinobi")
                     .font(.custom("JosefinSans-Bold", size: 30))
                     .foregroundColor(.white)
+                    .padding(.top,20)
+                    .p
+                
             
                 List(viewModel.shinobi)  { shinobi in
                     
+           
                     
                     HStack {
                         Image(shinobi.imageUrl, bundle: nil).resizable()
