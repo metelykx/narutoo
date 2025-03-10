@@ -29,13 +29,16 @@ struct ShinobiListView: View {
                         VStack(alignment: .leading) {
                             Text(shinobi.name).padding(.bottom,2)
                                 .foregroundColor(.white)
+                                .font(.custom("JosefinSans-Regular", size: 20))
                             
                             
                             Text("Power:  \(String(shinobi.power))/100").padding(.bottom,2)
                                 .foregroundColor(.white)
+                                .font(.custom("JosefinSans-Regular", size: 20))
                             
                             Text("Intelligence: \(String(shinobi.intelligence))/100")
                                 .foregroundColor(.white)
+                                .font(.custom("JosefinSans-Regular", size: 20))
                         }
                     }
             
