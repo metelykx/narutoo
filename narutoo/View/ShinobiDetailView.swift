@@ -18,7 +18,10 @@ struct ShinobiDetailView: View {
                 Text(shinobi.name)
                     .font(.custom("JosefinSans-Bold", size: 30))
                     .foregroundColor(.white)
+                    
+                Spacer()
             }
+            
         }
     }
 }
