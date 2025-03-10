@@ -17,7 +17,7 @@ struct ShinobiListView: View {
             Color("Background", bundle: nil).ignoresSafeArea()
             VStack {
                 
-                
+                Text("Shinobi")
                 List(viewModel.shinobi)  { shinobi in
                     
                     
