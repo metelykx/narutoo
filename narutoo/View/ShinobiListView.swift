@@ -61,6 +61,8 @@ struct ShinobiListView: View {
                         )
                         
                         .listRowBackground(Color.clear)
+                        //чтобы поле было кликабельным
+                        .contentShape(Rectangle())
                     }
                     
                 }.listStyle(.plain)
