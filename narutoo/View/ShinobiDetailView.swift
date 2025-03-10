@@ -11,7 +11,15 @@ import SwiftUI
 struct ShinobiDetailView: View {
     let shinobi: Shinobi
     var body: some View {
-        Text("dwd")
+        ZStack {
+            Color("Background", bundle: nil).ignoresSafeArea()
+            
+            VStack {
+                Text(shinobi.name)
+                    .font(.custom("JosefinSans-Bold", size: 30))
+                    .foregroundColor(.white)
+            }
+        }
     }
 }
 #Preview {
