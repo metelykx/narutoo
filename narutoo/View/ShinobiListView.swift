@@ -20,6 +20,7 @@ struct ShinobiListView: View {
                 Text("Shinobi")
                     .font(.custom("JosefinSans-Regular", size: 30))
                     .foregroundColor(.white)
+            
                 List(viewModel.shinobi)  { shinobi in
                     
                     

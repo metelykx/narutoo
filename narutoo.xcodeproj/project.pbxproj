@@ -33,6 +33,7 @@
 		CCCC4C3D2D7F66600064510C /* Exceptions for "narutoo" folder in "narutooTests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				"Fonts/JosefinSans-Bold.ttf",
 				"Fonts/JosefinSans-Regular.ttf",
 			);
 			target = CC0837B72D7747A20064003A /* narutooTests */;
@@ -40,6 +41,7 @@
 		CCCC4C3E2D7F66600064510C /* Exceptions for "narutoo" folder in "narutooUITests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				"Fonts/JosefinSans-Bold.ttf",
 				"Fonts/JosefinSans-Regular.ttf",
 			);
 			target = CC0837C12D7747A20064003A /* narutooUITests */;
