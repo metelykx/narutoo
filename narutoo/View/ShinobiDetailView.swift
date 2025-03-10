@@ -9,6 +9,7 @@
 import SwiftUI
 
 struct ShinobiDetailView: View {
+    let shinobi: Shinobi
     var body: some View {
         
     }
