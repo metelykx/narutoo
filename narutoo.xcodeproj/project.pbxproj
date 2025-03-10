@@ -29,9 +29,30 @@
 		CC0837C22D7747A20064003A /* narutooUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = narutooUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		CCCC4C3D2D7F66600064510C /* Exceptions for "narutoo" folder in "narutooTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Fonts/JosefinSans-Regular.ttf",
+			);
+			target = CC0837B72D7747A20064003A /* narutooTests */;
+		};
+		CCCC4C3E2D7F66600064510C /* Exceptions for "narutoo" folder in "narutooUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Fonts/JosefinSans-Regular.ttf",
+			);
+			target = CC0837C12D7747A20064003A /* narutooUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		CC0837AA2D7747A00064003A /* narutoo */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CCCC4C3D2D7F66600064510C /* Exceptions for "narutoo" folder in "narutooTests" target */,
+				CCCC4C3E2D7F66600064510C /* Exceptions for "narutoo" folder in "narutooUITests" target */,
+			);
 			path = narutoo;
 			sourceTree = "<group>";
 		};
