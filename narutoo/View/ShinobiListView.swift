@@ -13,43 +13,45 @@ struct ShinobiListView: View {
     //здесь, мы подсоединили так скажем ShinobiModelView для того, чтобы автоматически изменять интерфейс при изменении данных
     @ObservedObject var viewModel = ShinobiModelView.shared
     var body: some View {
+        NavigationView {
         ZStack {
             Color("Background", bundle: nil).ignoresSafeArea()
-            VStack {
-                
-                
-                Text("Shinobi")
-                    .font(.custom("JosefinSans-Bold", size: 30))
-                    .foregroundColor(.white)
-                    .padding(.top,20)
-                    .padding(.trailing,250)
-                
-            
-                List(viewModel.shinobi)  { shinobi in
+        
+                VStack {
                     
-           
                     
-                    HStack {
-                        Image(shinobi.imageUrl, bundle: nil).resizable()
-                            .aspectRatio(contentMode: .fit)
-                            .frame(width: 100, height: 125)
+                    Text("Shinobi")
+                        .font(.custom("JosefinSans-Bold", size: 30))
+                        .foregroundColor(.white)
+                        .padding(.top,20)
+                        .padding(.trailing,250)
+                    
+                    
+                    List(viewModel.shinobi)  { shinobi in
                         
-                        VStack(alignment: .leading) {
-                            Text(shinobi.name).padding(.bottom,2)
-                                .foregroundColor(.white)
-                                .font(.custom("JosefinSans-Regular", size: 20))
+                        
+                        
+                        HStack {
+                            Image(shinobi.imageUrl, bundle: nil).resizable()
+                                .aspectRatio(contentMode: .fit)
+                                .frame(width: 100, height: 125)
                             
-                            
-                            Text("Power:  \(String(shinobi.power))/100").padding(.bottom,2)
-                                .foregroundColor(.white)
-                                .font(.custom("JosefinSans-Regular", size: 20))
-                            
-                            Text("Intelligence: \(String(shinobi.intelligence))/100")
-                                .foregroundColor(.white)
-                                .font(.custom("JosefinSans-Regular", size: 20))
+                            VStack(alignment: .leading) {
+                                Text(shinobi.name).padding(.bottom,2)
+                                    .foregroundColor(.white)
+                                    .font(.custom("JosefinSans-Regular", size: 20))
+                                
+                                
+                                Text("Power:  \(String(shinobi.power))/100").padding(.bottom,2)
+                                    .foregroundColor(.white)
+                                    .font(.custom("JosefinSans-Regular", size: 20))
+                                
+                                Text("Intelligence: \(String(shinobi.intelligence))/100")
+                                    .foregroundColor(.white)
+                                    .font(.custom("JosefinSans-Regular", size: 20))
+                            }
                         }
-                    }
-                    .overlay(
+                        .overlay(
                             Rectangle()
                                 .fill(Color.gray.opacity(1.5))
                                 .frame(height: 1)
@@ -57,14 +59,16 @@ struct ShinobiListView: View {
                                 .padding(.trailing, 20),
                             alignment: .bottom
                         )
-            
-                    .listRowBackground(Color.clear)
-                }
-               
-            }.listStyle(.plain)
+                        
+                        .listRowBackground(Color.clear)
+                    }
+                    
+                }.listStyle(.plain)
                 
                 
-           
+                
+                
+            }
         }
     }
 }
