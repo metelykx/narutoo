@@ -18,6 +18,13 @@ struct ShinobiDetailView: View {
                 Text(shinobi.name)
                     .font(.custom("JosefinSans-Bold", size: 30))
                     .foregroundColor(.white)
+                    .padding(.top, 80)
+                
+                Image(shinobi.imageUrl)
+                    .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 250, height: 300)
+                        .padding(.top,20)
                     
                 Spacer()
             }
