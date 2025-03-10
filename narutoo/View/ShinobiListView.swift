@@ -77,6 +77,11 @@ struct ShinobiListView: View {
                 
                 
             }
+        .sheet(isPresented: $showDetail) {
+            if let shinobi = selectedShinobi {
+                ShinobiDetailView(shinobi)
+            }
+        }
         }
     }
 }
