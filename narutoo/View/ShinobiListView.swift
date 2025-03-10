@@ -12,6 +12,8 @@ struct ShinobiListView: View {
     
     //здесь, мы подсоединили так скажем ShinobiModelView для того, чтобы автоматически изменять интерфейс при изменении данных
     @ObservedObject var viewModel = ShinobiModelView.shared
+    @State var selectedShinobi: Shinobi?
+    @State var showDetail = false
     var body: some View {
         NavigationView {
         ZStack {
@@ -63,6 +65,10 @@ struct ShinobiListView: View {
                         .listRowBackground(Color.clear)
                         //чтобы поле было кликабельным
                         .contentShape(Rectangle())
+                        .onTapGesture {
+                                                    selectedShinobi = shinobi
+                                                    showDetail = true
+                                                }
                     }
                     
                 }.listStyle(.plain)
