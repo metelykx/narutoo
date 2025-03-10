@@ -22,7 +22,7 @@ struct ShinobiListView: View {
                     .font(.custom("JosefinSans-Bold", size: 30))
                     .foregroundColor(.white)
                     .padding(.top,20)
-                    .p
+                    .padding(.trailing,250)
                 
             
                 List(viewModel.shinobi)  { shinobi in
