@@ -18,6 +18,7 @@ struct ShinobiListView: View {
             VStack {
                 
                 Text("Shinobi")
+                    .font(.custom("JosefinSans-Regular", size: 30))
                 List(viewModel.shinobi)  { shinobi in
                     
                     
