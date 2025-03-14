@@ -10,70 +10,67 @@ import SwiftUI
 
 struct ShinobiDetailView: View {
     let shinobi: Shinobi
+    
     var body: some View {
         ZStack {
-            Color("Background", bundle: nil).ignoresSafeArea()
+            Color("Background").ignoresSafeArea()
             
-            VStack {
-                Text(shinobi.name)
-                    .font(.custom("JosefinSans-Bold", size: 30))
-                    .foregroundColor(.white)
-                    .padding(.top, 80)
-                
-                Image(shinobi.imageUrl)
-                    .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(width: 250, height: 300)
-                        .padding(.top,20)
-                
-                
-                VStack(alignment: .leading) {
-                    Text("\(shinobi.name) \(shinobi.clan)")
+            // Добавьте ScrollView для прокрутки
+            ScrollView(showsIndicators: false) {
+                VStack {
+                    Text(shinobi.name)
+                        .font(.custom("JosefinSans-Bold", size: 30))
                         .foregroundColor(.white)
-                        .font(.custom("JosefinSans-Regular", size: 25))
-                        .padding(.top, 20)
-                        .padding(.bottom,3)
+                        .padding(.top, 40) // Уменьшите верхний отступ
                     
-                    Text("Village: \(shinobi.village)")
-                        .foregroundColor(.white)
-                        .font(.custom("JosefinSans-Regular", size: 25))
-                        .padding(.bottom,3)
+                    Image(shinobi.imageUrl)
+                        .resizable()
+                        .scaledToFit()
+                        .frame(maxWidth: 250, maxHeight: 250) // Более адаптивные размеры
+                        .padding(.vertical, 20)
                     
-                    Text("Power: \(shinobi.power)")
-                        .foregroundColor(.white)
-                        .font(.custom("JosefinSans-Regular", size: 25))
-                        .padding(.bottom, 3)
-                    
-                    
-                    Text("Gendzutsu: \(shinobi.Gendzusu)")
-                        .font(.custom("JosefinSans-Regular", size: 25))
-                        .foregroundStyle(.white)
-                        .padding(.bottom,3)
-                    
-                    Text("Ninjutsu: \(shinobi.Ninjutsu)")
-                        .font(.custom("JosefinSans-Regular", size: 25))
-                        .foregroundStyle(.white)
-                        .padding(.bottom, 3)
-                    
-                    Text("Taidzutsu: \(shinobi.Taidzusu)")
-                        .font(.custom("JosefinSans-Regular", size: 25))
-                        .foregroundStyle(.white)
-                        .padding(.bottom,3)
-                    
-                    Text("Element: \(shinobi.element)")
-                        .font(.custom("JosefinSans-Regular", size: 25))
-                        .foregroundStyle(.white)
-                        .padding(.bottom,3)
-                    
-                    Text("Special power: \(shinobi.specialPower)")
-                        .foregroundStyle(.white)
+                    // Оберните контент в VStack с отступами
+                    VStack(alignment: .leading, spacing: 12) {
+                        InfoRow(title: "Clan", value: shinobi.clan)
+                        InfoRow(title: "Village", value: shinobi.village)
+                        InfoRow(title: "Power", value: "\(shinobi.power)")
+                        InfoRow(title: "Gendzutsu", value: "\(shinobi.Gendzusu)")
+                        InfoRow(title: "Ninjutsu", value: "\(shinobi.Ninjutsu)")
+                        InfoRow(title: "Taidzutsu", value: "\(shinobi.Taidzusu)")
+                        InfoRow(title: "Element", value: shinobi.element)
+                        
+                        // Для длинного текста добавьте многострочность
+                        Text("Special power: \(shinobi.specialPower)")
+                            .foregroundColor(.white)
+                            .font(.custom("JosefinSans-Regular", size: 25))
+                            .fixedSize(horizontal: false, vertical: true) // Перенос строк
+                            .padding(.vertical, 8)
+                    }
+                    .padding(.horizontal, 16) // Горизонтальные отступы
+                    .frame(maxWidth: .infinity, alignment: .leading)
                 }
-                .frame(maxWidth: .infinity, alignment: .leading) // Выравнивание по левому краю
-                
-                .padding(.horizontal) // Добавьте горизонтальные отступы
-                Spacer()
+                .padding(.bottom, 40) // Нижний отступ для ScrollView
             }
+        }
+    }
+}
+
+// Вспомогательный компонент для повторяющихся строк
+struct InfoRow: View {
+    let title: String
+    let value: String
+    
+    var body: some View {
+        HStack(alignment: .top) {
+            Text("\(title):")
+                .font(.custom("JosefinSans-SemiBold", size: 25))
+                .foregroundColor(.white)
+                .frame(width: 120, alignment: .leading) // Фиксированная ширина для заголовков
             
+            Text(value)
+                .font(.custom("JosefinSans-Regular", size: 25))
+                .foregroundColor(.white)
+                .fixedSize(horizontal: false, vertical: true) // Разрешить перенос
         }
     }
 }
