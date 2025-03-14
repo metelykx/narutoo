@@ -30,16 +30,18 @@ struct ShinobiDetailView: View {
                 VStack(alignment: .leading) {
                     Text("\(shinobi.name) \(shinobi.clan)")
                         .foregroundColor(.white)
-                        .font(.custom("JosefiSans-Bold", size: 25))
+                        .font(.custom("JosefinSans-Regular", size: 25))
                         .padding(.top, 20)
+                        .padding(.bottom,3)
                     
                     Text("Village: \(shinobi.village)")
                         .foregroundColor(.white)
-                        .font(.custom("JosefiSans-Regular", size: 25))
+                        .font(.custom("JosefinSans-Regular", size: 25))
+                        .padding(.bottom,3)
                     
                     Text("Power: \(shinobi.power)")
                         .foregroundColor(.white)
-                        .font(.custom("JosefiSans-Regular", size: 25))
+                        .font(.custom("JosefinSans-Regular", size: 25))
                 }
                 .frame(maxWidth: .infinity, alignment: .leading) // Выравнивание по левому краю
                 
