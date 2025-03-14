@@ -30,6 +30,7 @@ struct ShinobiDetailView: View {
                 Text("\(shinobi.name) \(shinobi.clan)")
                     .foregroundColor(.white)
                     .font(.custom("JosefiSans-Regular", size: 25))
+                    .padding(.top, 20)
                     
                 Spacer()
             }
