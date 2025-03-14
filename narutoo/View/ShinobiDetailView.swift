@@ -55,6 +55,7 @@ struct ShinobiDetailView: View {
                         .foregroundStyle(.white)
                         .padding(.bottom, 3)
                     
+                    Text("Taidzutsu: \(shinobi.Taidzusu)")
                 }
                 .frame(maxWidth: .infinity, alignment: .leading) // Выравнивание по левому краю
                 
