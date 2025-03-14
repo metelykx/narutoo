@@ -42,9 +42,12 @@ struct ShinobiDetailView: View {
                     Text("Power: \(shinobi.power)")
                         .foregroundColor(.white)
                         .font(.custom("JosefinSans-Regular", size: 25))
+                        
                     
                     
-                    Text("Gendzusu: \(shinobi.Gendzusu)")
+                    Text("Gendzutsu: \(shinobi.Gendzusu)")
+                        .font(.custom("JosefinSans-Regular", size: 25))
+                        .foregroundStyle(.white)
                 }
                 .frame(maxWidth: .infinity, alignment: .leading) // Выравнивание по левому краю
                 
