@@ -51,6 +51,10 @@ struct ShinobiDetailView: View {
                         .padding(.bottom,3)
                     
                     Text("Ninjutsu: \(shinobi.Ninjutsu)")
+                        .font(.custom("JosefinSans-Regular", size: 25))
+                        .foregroundStyle(.white)
+                        .padding(.bottom, 3)
+                    
                 }
                 .frame(maxWidth: .infinity, alignment: .leading) // Выравнивание по левому краю
                 
