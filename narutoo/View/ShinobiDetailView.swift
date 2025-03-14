@@ -42,7 +42,7 @@ struct ShinobiDetailView: View {
                     Text("Power: \(shinobi.power)")
                         .foregroundColor(.white)
                         .font(.custom("JosefinSans-Regular", size: 25))
-                        
+                        .padding(.bottom, 3)
                     
                     
                     Text("Gendzutsu: \(shinobi.Gendzusu)")
