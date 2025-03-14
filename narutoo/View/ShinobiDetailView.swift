@@ -60,10 +60,12 @@ struct ShinobiDetailView: View {
                         .foregroundStyle(.white)
                         .padding(.bottom,3)
                     
-                    Text("Element\(shinobi.element)")
+                    Text("Element: \(shinobi.element)")
                         .font(.custom("JosefinSans-Regular", size: 25))
                         .foregroundStyle(.white)
                         .padding(.bottom,3)
+                    
+                    Text("Special power: \(shinobi.specialPower)")
                 }
                 .frame(maxWidth: .infinity, alignment: .leading) // Выравнивание по левому краю
                 
