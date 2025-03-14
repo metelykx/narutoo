@@ -42,6 +42,9 @@ struct ShinobiDetailView: View {
                     Text("Power: \(shinobi.power)")
                         .foregroundColor(.white)
                         .font(.custom("JosefinSans-Regular", size: 25))
+                    
+                    
+                    Text("Gendzusu: \(shinobi.Gendzusu)")
                 }
                 .frame(maxWidth: .infinity, alignment: .leading) // Выравнивание по левому краю
                 
