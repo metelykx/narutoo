@@ -25,6 +25,11 @@ struct ShinobiDetailView: View {
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 250, height: 300)
                         .padding(.top,20)
+                
+                
+                Text("\(shinobi.name) \(shinobi.clan)")
+                    .foregroundColor(.white)
+                    .font(.custom("JosefiSans-Regular", size: 25))
                     
                 Spacer()
             }
