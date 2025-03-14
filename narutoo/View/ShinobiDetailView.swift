@@ -48,6 +48,7 @@ struct ShinobiDetailView: View {
                     Text("Gendzutsu: \(shinobi.Gendzusu)")
                         .font(.custom("JosefinSans-Regular", size: 25))
                         .foregroundStyle(.white)
+                        .padding(.bottom,3)
                 }
                 .frame(maxWidth: .infinity, alignment: .leading) // Выравнивание по левому краю
                 
