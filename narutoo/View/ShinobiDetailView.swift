@@ -66,6 +66,7 @@ struct ShinobiDetailView: View {
                         .padding(.bottom,3)
                     
                     Text("Special power: \(shinobi.specialPower)")
+                        .foregroundStyle(.white)
                 }
                 .frame(maxWidth: .infinity, alignment: .leading) // Выравнивание по левому краю
                 
