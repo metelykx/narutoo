@@ -15,6 +15,7 @@ struct LoadView: View {
             
             VStack {
                 LoadImage()
+                    .padding(.bottom,100)
                 LoadText()
             }
             
@@ -43,7 +44,7 @@ struct LoadImage: View {
             Image("naruto", bundle: nil)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
-                .frame(width: 300, height: 300)
+                .frame(width: 350, height: 350)
         }
     }
 }
