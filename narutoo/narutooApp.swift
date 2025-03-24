@@ -20,7 +20,11 @@ struct narutooApp: App {
                 
                 //основная view
                 ContentView()
+                
+                    //прозрачность зависима от isAppActive
                     .opacity(isAppActive ? 1 : 0)
+                    
+                    //анимация, которая будет появлятся при нужном состоянии
                     .animation(.default, value: isAppActive)
             }
         }
