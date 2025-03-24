@@ -18,7 +18,7 @@ struct narutooApp: App {
         WindowGroup {
             ZStack {
                 
-                
+                //основная view
                 ContentView()
                     .opacity(isAppActive ? 1 : 0)
                     .animation(.default, value: isAppActive)
