@@ -14,6 +14,7 @@ struct LoadView: View {
             Color("Background", bundle: nil).ignoresSafeArea()
             
             VStack {
+                LoadImage()
                 LoadText()
             }
             
@@ -24,7 +25,7 @@ struct LoadView: View {
     LoadView()
 }
 
-//-MARK: Название 
+//-MARK: Название
 struct LoadText: View {
     var body: some View {
         VStack {
@@ -32,6 +33,17 @@ struct LoadText: View {
                 .font(.custom("JosefinSans-Bold", size: 35))
                 .foregroundStyle(.white)
             
+        }
+    }
+}
+
+struct LoadImage: View {
+    var body: some View {
+        VStack {
+            Image("naruto", bundle: nil)
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 300, height: 300)
         }
     }
 }
