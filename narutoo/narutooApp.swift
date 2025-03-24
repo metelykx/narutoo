@@ -16,7 +16,13 @@ struct narutooApp: App {
     @State var isAppActive: Bool = true
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ZStack {
+                
+                
+                ContentView()
+                    .opacity(isAppActive ? 1 : 0)
+                    .animation(.default, value: isAppActive)
+            }
         }
     }
 }
