@@ -13,9 +13,25 @@ struct LoadView: View {
         ZStack {
             Color("Background", bundle: nil).ignoresSafeArea()
             
+            VStack {
+                LoadText()
+            }
+            
         }
     }
 }
 #Preview {
     LoadView()
+}
+
+
+struct LoadText: View {
+    var body: some View {
+        VStack {
+            Text("Shipuden's Heroes")
+                .font(.custom("JosefinSans-Bold", size: 35))
+                .foregroundStyle(.white)
+            
+        }
+    }
 }
