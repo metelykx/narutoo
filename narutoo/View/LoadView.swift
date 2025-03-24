@@ -10,6 +10,12 @@ import SwiftUI
 
 struct LoadView: View {
     var body: some View {
-        Text("Loading...")
+        ZStack {
+            Color("Background", bundle: nil).ignoresSafeArea()
+            
+        }
     }
+}
+#Preview {
+    LoadView()
 }
