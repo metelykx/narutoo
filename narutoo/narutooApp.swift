@@ -26,6 +26,10 @@ struct narutooApp: App {
                     
                     //анимация, которая будет появлятся при нужном состоянии
                     .animation(.default, value: isAppActive)
+                
+                LoadView()
+                    .opacity(isAppActive ? 0 : 1)
+                    .animation(.default, value: isAppActive)
             }
         }
     }
