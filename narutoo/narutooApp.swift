@@ -12,7 +12,8 @@ struct narutooApp: App {
     //добавил переменную, которая следит за состоянием приложения
     @Environment(\.scenePhase) var scenePhase
     
-    @State var isDarkMode: Bool = false
+    //добавил флаг для отслежки активности приложения
+    @State var isAppActive: Bool = true
     var body: some Scene {
         WindowGroup {
             ContentView()
