@@ -24,7 +24,7 @@ struct LoadView: View {
     LoadView()
 }
 
-
+//-MARK: Название 
 struct LoadText: View {
     var body: some View {
         VStack {
