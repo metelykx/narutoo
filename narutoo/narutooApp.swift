@@ -31,6 +31,15 @@ struct narutooApp: App {
                     .opacity(isAppActive ? 0 : 1)
                     .animation(.default, value: isAppActive)
             }
+        }.onChange(of: scenePhase) { newValue in
+            switch newValue {
+            case .active:
+                self.isAppActive = true
+            case .inactive:
+                self.isAppActive = false
+            @unknown default:
+                    break
+            }
         }
     }
 }
