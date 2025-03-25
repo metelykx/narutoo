@@ -37,6 +37,7 @@ struct LoadText: View {
         }
     }
 }
+
 //-MARK: картинка
 struct LoadImage: View {
     var body: some View {
