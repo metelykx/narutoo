@@ -39,7 +39,8 @@ class ShinobiModelView: ObservableObject {
         DispatchQueue.global(qos: .userInteractive).async { [weak self] in
             
             
-            
+            //тут, вместо данных, которые представлены по-другому
+            //можно будет сделать в CoreData
             let loadedShinobi = [
                 Shinobi(id: 1,imageUrl: "naruto", name: "Naruto", clan: "Uzumaki", village: "Konohagakure", power: 95, specialPower: "Nine-tailed Fox Demon (Kyubi) — Inexhaustible Chakra, Sage Mode", intelligence: 75, Ninjutsu: 90, element: "Wind", Gendzusu: 40, Taidzusu: 85),
                 
@@ -73,8 +74,23 @@ class ShinobiModelView: ObservableObject {
                 
                 
             ]
-    }
-    var shinobi = [
+            //имитация загрузки
+            Thread.sleep(forTimeInterval: 1.5)
+            
+            //подгружаем все,что было в Background потоке в main,чтобы было в UI
+            DispatchQueue.main.async {
+                
+                self?.shinobi = loadedShinobi
+                self?.isLoading = false
+                
+                
+                
+            }
+        }
         
-    ]
+        func refreshData() {
+            loadShinobiData()
+        }
+        
+    }
 }
