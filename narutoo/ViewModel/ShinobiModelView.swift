@@ -12,13 +12,13 @@ class ShinobiModelView: ObservableObject {
     static let shared = ShinobiModelView()
     
     //массив с шиноби
-    @Published var shinobi = []
+    @Published var shinobi: [Shinobi] = []
     
     //загрузка
-    @Published var isLoading = false
+    @Published var isLoading: Bool = false
     
     //ошибка
-    @Published var isError: Error?
+    @Published var error: Error? = nil
     
     
     //-MARK: загрузка данных
@@ -33,10 +33,10 @@ class ShinobiModelView: ObservableObject {
     //-MARK: функция для загрузки данных
     func loadShinobiData() {
         isLoading = true
-        isError = nil
+        error = nil
         
         //создаем очередь с высоким приоритетом, которая выполняется ассинхронно с избеганием циклических ссылок
-        DispatchQueue.global(qos: .userInteractive).async { [weak self] in
+        DispatchQueue.global(qos: .userInitiated).async { [weak self] in
             
             
             //тут, вместо данных, которые представлены по-другому
@@ -88,9 +88,11 @@ class ShinobiModelView: ObservableObject {
             }
         }
         // для обновления данных
-        func refreshData() {
-            loadShinobiData()
-        }
         
+        
+    }
+    // для обновления данных
+    func refreshData() {
+        loadShinobiData()
     }
 }
