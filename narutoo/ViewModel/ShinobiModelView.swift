@@ -87,7 +87,7 @@ class ShinobiModelView: ObservableObject {
                 
             }
         }
-        
+        // для обновления данных
         func refreshData() {
             loadShinobiData()
         }
