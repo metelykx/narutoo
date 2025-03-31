@@ -11,9 +11,13 @@ class ShinobiModelView: ObservableObject {
     //сингелтон, для создания единственного экземпляра класса
     static let shared = ShinobiModelView()
     
-    
+    //массив с шиноби
     @Published var shinobi = []
+    
+    //загрузка
     @Published var isLoading = false
+    
+    //ошибка
     @Published var isError: Error?
     
     var shinobi = [
