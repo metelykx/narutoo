@@ -20,7 +20,17 @@ class ShinobiModelView: ObservableObject {
     //ошибка
     @Published var isError: Error?
     
-    var shinobi = [
+    
+    //-MARK: загрузка данных
+    //здесь, мы запрещаем создание экземпляра класса извне
+    //также, здесь при инициализации идет загрузка данных
+    private init() {
+        loadShinobiData()
+    }
+    
+    
+    
+        var shinobi = [
         Shinobi(id: 1,imageUrl: "naruto", name: "Naruto", clan: "Uzumaki", village: "Konohagakure", power: 95, specialPower: "Nine-tailed Fox Demon (Kyubi) — Inexhaustible Chakra, Sage Mode", intelligence: 75, Ninjutsu: 90, element: "Wind", Gendzusu: 40, Taidzusu: 85),
         
         Shinobi(id: 2, imageUrl: "sasuke", name: "Sasuke", clan: "Uchiha", village: "Konohagakure", power: 95, specialPower: "Eternal Mangekyo Sharingan and Rinegan — Space Control, Amaterasu (Unquenchable flame)", intelligence: 88, Ninjutsu: 95, element: "Fire, Lightning", Gendzusu: 95, Taidzusu: 90),
