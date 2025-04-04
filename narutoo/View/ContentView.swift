@@ -12,6 +12,7 @@ struct ContentView: View {
         
         //MARK: марка TabBar
         TabView {
+            
             //шиноби
             ShinobiListView()
             .tabItem {
@@ -19,11 +20,14 @@ struct ContentView: View {
                 Text("Heroes")
                  }
             
+            //злодеи
             ShinobiVillainListView()
                 .tabItem {
                     Image(systemName: "person.fill")
                     Text("Villains")
                 }
+            
+            //боги
             ShinobiGodsListView()
                 .tabItem {
                     Image(systemName: "sun.max")
