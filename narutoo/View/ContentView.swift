@@ -10,8 +10,15 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         
-        
-        ShinobiListView()
+        TabView {
+            ShinobiListView()
+            .tabItem {
+                Image(systemName: "person.crop.circle")
+                Text("Heroes")
+                 }
+            
+            
+        }
         
     }
 }
