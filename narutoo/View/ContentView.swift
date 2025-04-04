@@ -17,7 +17,16 @@ struct ContentView: View {
                 Text("Heroes")
                  }
             
-            
+            ShinobiVillainListView()
+                .tabItem {
+                    Image(systemName: "person.fill")
+                    Text("Villains")
+                }
+            ShinobiGodsListView()
+                .tabItem {
+                    Image(systemName: "sun.max")
+                    Text("Gods")
+                }
         }
         
     }
