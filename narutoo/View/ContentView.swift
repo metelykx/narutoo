@@ -10,7 +10,9 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         
+        //MARK: марка TabBar
         TabView {
+            //шиноби
             ShinobiListView()
             .tabItem {
                 Image(systemName: "person.crop.circle")
