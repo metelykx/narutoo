@@ -26,11 +26,6 @@ class ShinobiGodsModelView: ObservableObject {
     private init() {
         loadGods()
     }
-    
-    func loadGods() {
-        
-        isLoading = true
-        isError = nil
         
         func loadGods() {
             isLoading = true
@@ -95,4 +90,4 @@ class ShinobiGodsModelView: ObservableObject {
         }
         
     }
-}
+

@@ -23,7 +23,7 @@ struct ShinobiVillainListView: View {
                     .ignoresSafeArea()
                 
                 VStack {
-                    Text("Shinobi")
+                    Text("Villains")
                         .font(.custom("JosefinSans-Bold", size: 30))
                         .foregroundColor(.white)
                         .padding(.top, 20)
