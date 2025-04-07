@@ -4,7 +4,7 @@ class ShinobiVillainModelView: ObservableObject {
     
     @Published var villains: [Shinobi] = []
     @Published var isLoading: Bool = false
-    @Published var isError: Error? = nil
+    @Published var error: Error? = nil
     
     private init() {
         loadVillain()
@@ -12,7 +12,7 @@ class ShinobiVillainModelView: ObservableObject {
     
     func loadVillain() {
         isLoading = true
-        isError = nil
+        error = nil
         
         DispatchQueue.global(qos: .userInitiated).async { [weak self] in
             let villains = [
