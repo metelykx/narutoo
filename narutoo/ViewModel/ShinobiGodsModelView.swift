@@ -12,4 +12,11 @@ class ShinobiGodsModelView: ObservableObject {
     
     // singelton
     static let shared = ShinobiGodsModelView()
+    
+    //MARK: variables for information,changes
+    @Published var gods: [Shinobi] = []
+    
+    @Published var isLoading: Bool = false
+    
+    @Published var isError: Error? = nil
 }
