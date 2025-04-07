@@ -9,4 +9,7 @@ import Foundation
 
 class ShinobiGodsModelView: ObservableObject {
     
+    
+    // singelton
+    static let shared = ShinobiGodsModelView()
 }
