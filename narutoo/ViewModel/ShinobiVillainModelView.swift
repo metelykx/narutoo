@@ -31,7 +31,9 @@ class ShinobiVillainModelView: ObservableObject {
         
         DispatchQueue.global(qos: .userInitiated).async {
             let villains = [
-                Shinobi(id: 16, imageUrl: <#T##String#>, name: <#T##String#>, clan: <#T##String#>, village: <#T##String#>, power: <#T##Int#>, specialPower: <#T##String#>, intelligence: <#T##Int#>, Ninjutsu: <#T##Int#>, element: <#T##String#>, Gendzusu: <#T##Int#>, Taidzusu: <#T##Int#>)
+                Shinobi(id: 16, imageUrl: "kakuzu", name: "Kakuzu", clan: "Absent", village: "Still", power: 93, specialPower: "\("Five hearts") (control of 5 elements, immortality).", intelligence: 95, Ninjutsu: 89, element: "All five elements.", Gendzusu: 0, Taidzusu: 99),
+                Shinobi(id: 17, imageUrl: "kisame", name: "Kisame", clan: "Hoshigaki", village: "Kiri", power: 94, specialPower: "Merging with Samehada (chakra absorption)", intelligence: 85, Ninjutsu: 91, element: "Water", Gendzusu: 0, Taidzusu: 100),
+                Shinobi(id: 18, imageUrl: "konan", name: "Konan", clan: "Absent", village: "Amegakure", power: 90, specialPower: "Paper techniques", intelligence: 96, Ninjutsu: 95, element: "Water and Wind", Gendzusu: 0, Taidzusu: 40)
             ]
         }
        
