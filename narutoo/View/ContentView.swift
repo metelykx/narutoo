@@ -33,11 +33,13 @@ struct ContentView: View {
                     Image(systemName: "sun.max")
                     Text("Gods")
                 }
-        }
+        } .tint(.red) // Цвет активной иконки
+            .toolbarBackground(.black, for: .tabBar) // Цвет фона
+            .toolbarColorScheme(.dark, for: .tabBar) // Стиль иконок
         
     }
 }
 
 #Preview {
-    ContentView()
+    ContentView().preferredColorScheme(.dark) // Добавьте при необходимости
 }
